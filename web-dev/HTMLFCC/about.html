@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>About Me</title>
+</head>
+
+<body>
+    <aside>
+        <details>
+            <summary>
+                Guess the number of <mark>hours I code per day</mark>
+            </summary>
+            <ol>
+                <li>
+                    <dl>
+                        <dt style="color: blue;">
+                            Deneme
+                        </dt>
+                        <dd>
+                            deneme2
+                        </dd>
+                    </dl>
+                </li>
+            </ol>
+            <p>I start at <time datetime="08:00">8 am</time> <time datetime="PT3H">3 hours</time></p>
+        </details>
+    </aside>
+    <br>
+    <table>
+        <caption>My Daily Schedule</caption>
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th>Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                </td>
+                <td>Write Code</td>
+            </tr>
+            <tr>
+                <th>Break</th>
+                <td>
+                    <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                </td>
+                <td>Eat Lunch</td>
+            </tr>
+            <tr>
+                <th>Afternoon</th>
+                <td>
+                    <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                </td>
+                <td>Study for other courses</td>
+            </tr>
+            <tr>
+                <th>Evening</th>
+                <td rowspan="2">All Other Times</td>
+                <td>Free Time</td>
+            </tr>
+            <tr>
+                <th>Night</th>
+                <td>Sleep</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code ..and recharge!
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <h2>About Me</h2>
+    <a href="/">Return Home</a>
+
+    <hr>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you!</p>
+
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal Info</legend>
+
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required
+                        autofocus>
+                </p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" required autocomplete="on">
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="your secret" required>
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="5555555555"
+                        pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                </p>
+                <p>
+                    <label for="decade">Favorite Decade:</label>
+                    <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+                </p>
+                <p>
+                    <label for="coffee">Favorite Coffee:</label>
+                    <select name="coffee" id="coffee" multiple size="2">
+                        <optgroup label="Regulars">
+                            <option value="regular coffee">Regular Coffee</option>
+                            <option value="iced coffee">Iced Coffee</option>
+                        </optgroup>
+                        <optgroup label="Espresso Based">
+                            <option value="latte" selected>Latte</option>
+                            <option value="cappuccino">Cappuccino</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label for="coffee2">Fav Coffee 2</label>
+                    <input type="text" name="coffee2" id="coffee2" list="coffee-list">
+                    <datalist id="coffee-list">
+                        <option value="coffee"></option>
+                        <option value="latte"></option>
+                        <option value="espresso"></option>
+                        <option value="filter"></option>
+                        <option value="americano"></option>
+                    </datalist>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>What is your favorite food?</legend>
+                <p>
+                    <input type="radio" name="food" id="tacos" value="tacos">
+                    <label for="tacos">Tacos</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="pizza" value="pizza">
+                    <label for="tacos">Pizza</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="kebab" value="kebab">
+                    <label for="kebab">Kebab</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Do you have pets?</legend>
+                <input type="checkbox" name="pets" id="dog" value="dog">
+                <label for="dog">Dog</label>
+                <input type="checkbox" name="pets" id="cat" value="cat">
+                <label for="cat">Cat</label>
+                <input type="checkbox" name="pets" id="fish" value="fish">
+                <label for="fish">Fish</label>
+                <input type="checkbox" name="pets" id="otherPet" value="otherPet">
+                <label for="otherPet">Other</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Send Me A Note</legend>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Type your message here"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="submit" formaction="http://httpbin.org/post" formmethod="post">Post</button>
+        </form>
+    </article>
+</body>
+
+</html>
