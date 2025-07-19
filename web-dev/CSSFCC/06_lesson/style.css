@@ -1,0 +1,21 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+}
+
+input, button {
+    font: inherit;
+}
+
+p {
+    opacity: 0.5;
+    line-height: 1.5;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+p:hover {
+    opacity: 1;
+}
