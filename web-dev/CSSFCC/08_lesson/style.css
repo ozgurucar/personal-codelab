@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", serif;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: disc;
+    text-align: center;
+    color: blue;
+    list-style-position: inside;
+    line-height: 2;
+}
+
+ul li:nth-child(odd){
+    color: red;
+}
+
+ul li::marker{
+    color: rgb(4, 113, 4);
+}
