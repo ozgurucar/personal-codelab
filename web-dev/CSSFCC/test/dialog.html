@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <dialog id="dialog">
+      Merhaba!
+      <button class="close">Kapat</button>
+    </dialog>
+
+    <button class="show">Göster</button>
+
+    <script>
+      const dialog = document.getElementById("dialog");
+      const showBtn = document.querySelector(".show");
+      const closeBtn = document.querySelector(".close");
+
+      showBtn.addEventListener("click", () => {
+        dialog.showModal();
+      });
+
+      closeBtn.addEventListener("click", () => {
+        dialog.close();
+      });
+    </script>
+  </body>
+</html>
