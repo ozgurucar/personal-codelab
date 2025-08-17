@@ -3,3 +3,46 @@
     padding: 0;
     margin: 0;
 }
+
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #ccc;
+}
+
+.card {
+    margin: 10px;
+    justify-self: center;
+    width: 30%;
+    height: 50%;
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 2em;
+}
+
+h2 {
+    font-size: 3em;
+    padding: 10px;
+}
+
+article {
+    display: flex;
+    background-color: darkred;
+    color: white;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+article p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin: auto 0;
+    padding: 0 10px;
+}
+
+
+footer {
+    font-size: 2em;
+    padding: 10px;
+}
