@@ -1,57 +1,37 @@
-class Node:
-    def __init__(self,value):
-        self.value = value
-        self.next = None
+from node import Node  # import the class, not the module name
 
-class LinkedList():
+class LinkedList:
     def __init__(self):
         self.head = None
+        self.length = 0
 
-    def list_is_empty(self):
-        return self.head is None
-
-    def add_element(self,node):
-        if(self.list_is_empty()):
-            self.head = node
+    def add_node(self, new_node: Node):
+        if self.head is None:
+            self.head = new_node
         else:
-            current = self.head
-            while current.next is not None:
-                current = current.next
-            current.next = node
+            curr = self.head
+            # stop at the tail
+            while curr.getNext() is not None:
+                curr = curr.getNext()
+            curr.setNext(new_node)
+        self.length += 1
 
-    def print_list(self):
-        current = self.head
-        while(current is not None):
-            print(current.value)
-            current = current.next
+    # convenience
+    def add(self, value):
+        self.add_node(Node(value))
 
-    def remove_element(self,value):
-        if self.list_is_empty():
-            return
+    def __len__(self):
+        return self.length
+    def __iter__(self):
+        curr = self.head
+        while curr is not None:
+            yield curr.getValue()
+            curr = curr.getNext()
 
-        if self.head.value == value:
-            self.head = self.head.next
-            return
-
-        prev = self.head
-        walk = self.head.next
-
-        while walk is not None:
-            if walk.value == value:
-                prev.next = walk.next
-                return
-            prev = walk
-            walk = walk.next
-
-        print("Can't found the element")
-
-
-
-if __name__ == '__main__':
-    my_linked_list = LinkedList()
-    my_linked_list.add_element(Node(5))
-    my_linked_list.add_element(Node(10))
-    my_linked_list.add_element(Node(20))
-    my_linked_list.print_list()
-    my_linked_list.remove_element(102)
-    my_linked_list.print_list()
+    def __str__(self):
+        parts = []
+        curr = self.head
+        while curr is not None:
+            parts.append(str(curr.getValue()))
+            curr = curr.getNext()
+        return " -> ".join(parts) + " -> None"
