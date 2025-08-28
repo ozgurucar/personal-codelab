@@ -19,5 +19,18 @@ class DoubleLinkedList:
     def add(self,value):
         self.add_node(Node(value))           
 
+    def __iter__(self):
+        curr = self.head
+        while(curr.next is not None):
+            yield curr.value 
+            curr = curr.next
+
+    def __str__(self):
+        parts = []
+        curr = self.head
+        while curr is not None:
+            parts.append(str(curr.value))
+            curr = curr.next
+        return " -> ".join(parts) + " -> None"
 
 
