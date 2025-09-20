@@ -1,0 +1,15 @@
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\obj\Debug\net8.0\LoopExamples.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\obj\Debug\net8.0\LoopExamples.AssemblyInfoInputs.cache
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\obj\Debug\net8.0\LoopExamples.AssemblyInfo.cs
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\obj\Debug\net8.0\LoopExamples.csproj.CoreCompileInputs.cache
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\obj\Debug\net8.0\LoopExamples.sourcelink.json
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\bin\Debug\net8.0\LoopExamples.exe
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\bin\Debug\net8.0\LoopExamples.deps.json
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\bin\Debug\net8.0\LoopExamples.runtimeconfig.json
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\bin\Debug\net8.0\LoopExamples.dll
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\bin\Debug\net8.0\LoopExamples.pdb
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\obj\Debug\net8.0\LoopExamples.dll
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\obj\Debug\net8.0\refint\LoopExamples.dll
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\obj\Debug\net8.0\LoopExamples.pdb
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\obj\Debug\net8.0\LoopExamples.genruntimeconfig.cache
+D:\coding\personal-codelab\CSharpProjects\LoopExamples\obj\Debug\net8.0\ref\LoopExamples.dll
