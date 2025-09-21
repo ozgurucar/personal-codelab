@@ -1,0 +1,15 @@
+D:\coding\personal-codelab\CSharpProjects\testproject\bin\Debug\net8.0\testproject.exe
+D:\coding\personal-codelab\CSharpProjects\testproject\bin\Debug\net8.0\testproject.deps.json
+D:\coding\personal-codelab\CSharpProjects\testproject\bin\Debug\net8.0\testproject.runtimeconfig.json
+D:\coding\personal-codelab\CSharpProjects\testproject\bin\Debug\net8.0\testproject.dll
+D:\coding\personal-codelab\CSharpProjects\testproject\bin\Debug\net8.0\testproject.pdb
+D:\coding\personal-codelab\CSharpProjects\testproject\obj\Debug\net8.0\testproject.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\personal-codelab\CSharpProjects\testproject\obj\Debug\net8.0\testproject.AssemblyInfoInputs.cache
+D:\coding\personal-codelab\CSharpProjects\testproject\obj\Debug\net8.0\testproject.AssemblyInfo.cs
+D:\coding\personal-codelab\CSharpProjects\testproject\obj\Debug\net8.0\testproject.csproj.CoreCompileInputs.cache
+D:\coding\personal-codelab\CSharpProjects\testproject\obj\Debug\net8.0\testproject.sourcelink.json
+D:\coding\personal-codelab\CSharpProjects\testproject\obj\Debug\net8.0\testproject.dll
+D:\coding\personal-codelab\CSharpProjects\testproject\obj\Debug\net8.0\refint\testproject.dll
+D:\coding\personal-codelab\CSharpProjects\testproject\obj\Debug\net8.0\testproject.pdb
+D:\coding\personal-codelab\CSharpProjects\testproject\obj\Debug\net8.0\testproject.genruntimeconfig.cache
+D:\coding\personal-codelab\CSharpProjects\testproject\obj\Debug\net8.0\ref\testproject.dll
