@@ -1,0 +1,11 @@
+[{"Id":1,"Name":"Ozgur","Age":22,"Department":"Ceng"}
+,{"Id":2,"Name":"Ece","Age":21,"Department":"Math"},
+{"Id":3,"Name":"Mert","Age":23,"Department":"Physics"},
+{"Id":4,"Name":"Selin","Age":20,"Department":"Biology"},
+{"Id":5,"Name":"Can","Age":24,"Department":"Chemistry"},
+{"Id":6,"Name":"Deniz","Age":22,"Department":"History"},
+{"Id":7,"Name":"Emre","Age":25,"Department":"Literature"},
+{"Id":8,"Name":"Aylin","Age":21,"Department":"Philosophy"},
+{"Id":9,"Name":"Burak","Age":23,"Department":"Economics"},
+{"Id":10,"Name":"Zeynep","Age":20,"Department":"Sociology"}    
+]

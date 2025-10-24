@@ -1,0 +1,15 @@
+D:\coding\personal-codelab\CSharpProjects\FileOperations\bin\Debug\net8.0\FileOperations.exe
+D:\coding\personal-codelab\CSharpProjects\FileOperations\bin\Debug\net8.0\FileOperations.deps.json
+D:\coding\personal-codelab\CSharpProjects\FileOperations\bin\Debug\net8.0\FileOperations.runtimeconfig.json
+D:\coding\personal-codelab\CSharpProjects\FileOperations\bin\Debug\net8.0\FileOperations.dll
+D:\coding\personal-codelab\CSharpProjects\FileOperations\bin\Debug\net8.0\FileOperations.pdb
+D:\coding\personal-codelab\CSharpProjects\FileOperations\obj\Debug\net8.0\FileOperations.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\personal-codelab\CSharpProjects\FileOperations\obj\Debug\net8.0\FileOperations.AssemblyInfoInputs.cache
+D:\coding\personal-codelab\CSharpProjects\FileOperations\obj\Debug\net8.0\FileOperations.AssemblyInfo.cs
+D:\coding\personal-codelab\CSharpProjects\FileOperations\obj\Debug\net8.0\FileOperations.csproj.CoreCompileInputs.cache
+D:\coding\personal-codelab\CSharpProjects\FileOperations\obj\Debug\net8.0\FileOperations.sourcelink.json
+D:\coding\personal-codelab\CSharpProjects\FileOperations\obj\Debug\net8.0\FileOperations.dll
+D:\coding\personal-codelab\CSharpProjects\FileOperations\obj\Debug\net8.0\refint\FileOperations.dll
+D:\coding\personal-codelab\CSharpProjects\FileOperations\obj\Debug\net8.0\FileOperations.pdb
+D:\coding\personal-codelab\CSharpProjects\FileOperations\obj\Debug\net8.0\FileOperations.genruntimeconfig.cache
+D:\coding\personal-codelab\CSharpProjects\FileOperations\obj\Debug\net8.0\ref\FileOperations.dll
