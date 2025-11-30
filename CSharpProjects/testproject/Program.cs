@@ -1,4 +1,4 @@
-﻿// using System.Globalization;
+﻿using System;
 
 // CultureInfo.CurrentCulture = new CultureInfo("en-US");
 
@@ -344,16 +344,88 @@
 //     System.Console.WriteLine(x);
 // 
 
-int x = 5;
+// int x = 5;
 
-Console.WriteLine(x);
+// Console.WriteLine(x);
 
-void ChangeValue(int _)
+// void ChangeValue(int _)
+// {
+//     x = _;
+
+// }
+
+// ChangeValue(10);
+
+// Console.WriteLine(x);
+
+// Student student = new Student { Id = 1, Name = "John Doe" };
+
+// Console.WriteLine($"Student ID: {student.Id}, Name: {student.Name}");
+// Console.WriteLine(student);
+
+// string isCorrect(Student s) =>
+//     s switch
+//     {
+//         { Id: > 0, Name: not null and not "" } => "Valid Student",
+//         { Id: <= 0 } => "Invalid ID",
+//         { Name: null or "" } => "Invalid Name",
+//         _ => "Unknown"
+//     };
+
+// Console.WriteLine(isCorrect(student));
+
+// string x = null;
+
+// Console.WriteLine(x is { });
+
+// public record Student
+// {
+//     public int Id { get; init; }
+//     public required string Name { get; init; }
+// }
+
+
+// string[] names = { "Alice", "Bob","Charlie","Bob", "Charlie" };
+
+// Console.WriteLine(
+// names switch
+// {
+//     [_, "Bob", ..] => "Found Bob at the second position",
+//     [_, _, "Charlie"] => "Found Charlie at the end",
+//     _ => "No match found"
+// }
+// );
+
+// var startsWithC =
+// names
+// .Where(name => name.StartsWith("C"))
+// .Select(name => name.ToUpper());
+
+
+// foreach (var _ in startsWithC) { Console.WriteLine(_); }
+
+Person person = new Person
 {
-    x = _;
+    FirstName = "John",
+    LastName = "Doe",
+    City = "New York"
+};
 
+Console.WriteLine(person.FirstName);
+
+var (fname, lname) = person;
+
+Console.WriteLine($"First Name: {fname}, Last Name: {lname}");
+class Person
+{
+    public string? FirstName { get; set; }
+    public string? LastName { get; set; }
+    public string? City { get; set; }
+
+    public void Deconstruct(out string? firstName, out string? lastName)
+    {
+        firstName = FirstName;
+        lastName = LastName;
+    }
 }
 
-ChangeValue(10);
-
-Console.WriteLine(x);

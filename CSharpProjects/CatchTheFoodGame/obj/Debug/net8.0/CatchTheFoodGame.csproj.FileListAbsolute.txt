@@ -1,0 +1,15 @@
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\bin\Debug\net8.0\CatchTheFoodGame.exe
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\bin\Debug\net8.0\CatchTheFoodGame.deps.json
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\bin\Debug\net8.0\CatchTheFoodGame.runtimeconfig.json
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\bin\Debug\net8.0\CatchTheFoodGame.dll
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\bin\Debug\net8.0\CatchTheFoodGame.pdb
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\obj\Debug\net8.0\CatchTheFoodGame.GeneratedMSBuildEditorConfig.editorconfig
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\obj\Debug\net8.0\CatchTheFoodGame.AssemblyInfoInputs.cache
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\obj\Debug\net8.0\CatchTheFoodGame.AssemblyInfo.cs
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\obj\Debug\net8.0\CatchTheFoodGame.csproj.CoreCompileInputs.cache
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\obj\Debug\net8.0\CatchTheFoodGame.sourcelink.json
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\obj\Debug\net8.0\CatchTheFoodGame.dll
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\obj\Debug\net8.0\refint\CatchTheFoodGame.dll
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\obj\Debug\net8.0\CatchTheFoodGame.pdb
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\obj\Debug\net8.0\CatchTheFoodGame.genruntimeconfig.cache
+d:\coding\personal-codelab\CSharpProjects\CatchTheFoodGame\obj\Debug\net8.0\ref\CatchTheFoodGame.dll
