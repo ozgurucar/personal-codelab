@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\coding\\DesignPatterns\\DesignPatterns.csproj": {}
+    "D:\\coding\\personal-codelab\\DesignPatterns\\DesignPatterns.csproj": {}
   },
   "projects": {
-    "D:\\coding\\DesignPatterns\\DesignPatterns.csproj": {
+    "D:\\coding\\personal-codelab\\DesignPatterns\\DesignPatterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\coding\\DesignPatterns\\DesignPatterns.csproj",
+        "projectUniqueName": "D:\\coding\\personal-codelab\\DesignPatterns\\DesignPatterns.csproj",
         "projectName": "DesignPatterns",
-        "projectPath": "D:\\coding\\DesignPatterns\\DesignPatterns.csproj",
+        "projectPath": "D:\\coding\\personal-codelab\\DesignPatterns\\DesignPatterns.csproj",
         "packagesPath": "C:\\Users\\ucaro\\.nuget\\packages\\",
-        "outputPath": "D:\\coding\\DesignPatterns\\obj\\",
+        "outputPath": "D:\\coding\\personal-codelab\\DesignPatterns\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

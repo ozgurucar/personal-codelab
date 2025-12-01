@@ -1,6 +1,20 @@
-﻿VideoStorage videoStorage = new VideoStorage(new CompressorMP4(), new OverlayBlackAndWhile());
+﻿// VideoStorage videoStorage = new VideoStorage(new CompressorMP4(), new OverlayBlackAndWhile());
 
-videoStorage.Store("./videos");
-videoStorage.SetCompressor(new CompressorWOV());
+// videoStorage.Store("./videos");
+// videoStorage.SetCompressor(new CompressorWOV());
 
-videoStorage.Store("./videos");
+// videoStorage.Store("./videos");
+
+ShoppingList shoppingList = new();
+
+shoppingList.Push("3 Eggs");
+shoppingList.Push("1 Chicken");
+shoppingList.Push("1L Milk");
+
+var iterator = shoppingList.CreateIterator();
+
+while(iterator.HasNext())
+{
+    Console.WriteLine(iterator.Current());
+    iterator.Next();
+}
