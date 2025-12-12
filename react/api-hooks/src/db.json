@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "name":"Özgür",
+            "surname": "Uçar",
+            "id":1002
+        },
+        {
+            "name":"John",
+            "surname":"Doe",
+            "id": 1003
+        }
+    ]
+}
