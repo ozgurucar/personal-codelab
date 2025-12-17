@@ -51,7 +51,7 @@ function CurrencySelector() {
     <div className="labels">
         <div>
             <h3>Base Currency</h3>
-            <input type="number" onChange={(e) => setValue(e.target.value)}></input>
+            <input type="number" onChange={(e) => calculate(e.target.value)}></input>
             <p>{currentCurrency.code}</p>
         </div>
         <div>
@@ -62,6 +62,13 @@ function CurrencySelector() {
             <button onClick={() => calculate()}>Calculate</button>
             <h2>Result: {result.toFixed(2)}</h2>
         </div>
+    </div>
+    <div> 
+        <p>
+            {currencies.map(c => () => {
+                <p>c</p>
+            } )}
+        </p>
     </div>
 </div>
     )

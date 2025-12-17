@@ -1,13 +1,15 @@
 import { useState } from 'react'
 
-// import './App.css'
-import CurrencySelector from './components/CurrencySelector'
+import './App.css'
+import Currency from './components/Currency'
 
 function App() {
 
   return (
     <>
-      <CurrencySelector></CurrencySelector>
+    <div>
+      <Currency></Currency>
+    </div>
     </>
   )
 }
